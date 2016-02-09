@@ -1,9 +1,14 @@
-# LibFree an experiment for using Iterables and :: operator
+# LibFree is an experiment in Tranducers using Iterables and :: operator
 
-A simple iterator library for Javascript meant for exploration
+A simple iterator library for JavaScript meant for exploration of Transducers.
 
 Inspired by [experimental ES7syntax](https://github.com/zenparsing/es-function-bind)
-proposed by Kevin Smith (@zenparsing)
+proposed by Kevin Smith (@zenparsing).
+
+Also heavily influenced by [C# Linq](https://msdn.microsoft.com/en-us/library/bb397906.aspx)
+
+Here is a good explanation on Transducers using JavaScript, though the approach is very different.
+[Understanding Transducers in JavaScript](https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624#.nwk1l0bb2)
 
 * Uses ES6 via Babel
 * Expect (https://github.com/mjackson/expect)
@@ -16,7 +21,7 @@ cd libfree
 npm install
 ```
 
-Run tests
+Run tests to see API usage and working code.
 ```
 npm test
 ```
